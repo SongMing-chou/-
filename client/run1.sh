@@ -1,0 +1,1 @@
+g++ -o client1 client1.cpp -lpthread && ./client1
