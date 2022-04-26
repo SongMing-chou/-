@@ -11,8 +11,8 @@
 
 
 void * func_con(void *argv) {
-    // char *ip = "120.77.87.178";
-    char *ip = "125.217.249.87";
+    char *ip = "120.77.87.178";
+    // char *ip = "125.217.249.87";
     char* port = "9006";
     int connfd;
     char buf[1000];

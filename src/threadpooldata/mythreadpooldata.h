@@ -53,7 +53,7 @@ private:
 
     char m_read_buf[READ_BUFFER_SIZE];  /*接受缓存*/
     int m_read_index = 0;               /*已经接收字节数*/
-    char savefile_name[64] = "/home/chou/Desktop/MYPROJECT/src/test/";/*保存文件的名字*/
+    char savefile_name[64] = "/home/user/Desktop/myp/src/test";/*保存文件的名字*/
 
     char m_write_buf[WRITE_BUFFER_SIZE];    /*发送缓存*/
     int m_write_index = 0;                  /*已经写的字节数*/

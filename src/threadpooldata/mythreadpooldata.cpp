@@ -74,7 +74,6 @@ bool MyThreadpoolData::m_write()
     int bytes_send = 0;
     while(1) 
     {
-        // printf("sending!!!\n");
         if(m_file_read_index == 0) break;
         bytes_send = write(m_sockfd, m_write_index + m_write_buf, m_file_read_index);
         m_file_read_index-=bytes_send;

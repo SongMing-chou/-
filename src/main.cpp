@@ -2,7 +2,7 @@
 
 int main() {
     
-    char * port = "9006";
+    char* port = "9006";
     char* publisherhost = "127.0.0.2";
     char* brokerhost = "127.0.0.1";
     

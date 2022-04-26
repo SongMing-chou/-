@@ -22,9 +22,9 @@ void * func_con(void *argv) {
         printf("create error!!\n");
     }
         struct sockaddr_in server_addr;
-        // char *ip = "120.77.87.178";
+        char *ip = "120.77.87.178";
         //    char *ip = "125.217.249.87";
-           char *ip = "211.66.15.194";
+        //    char *ip = "211.66.15.194";
 
 
         char* port = "9006";

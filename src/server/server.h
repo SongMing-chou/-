@@ -3,7 +3,6 @@
 
 #include<vector>
 #include"../threadpool/threadpool.h"
-// #include"../config.h"
 #include<sys/epoll.h>
 #include<sys/fcntl.h>
 #include<sys/types.h>

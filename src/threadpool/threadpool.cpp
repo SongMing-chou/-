@@ -78,7 +78,6 @@ void *threadpool<T>::worker(void*arg)
 template <typename T>
 void threadpool<T>::run() 
 {
-    // printf("threa is init and runing!!!\n");
     while(true) 
     {
         //等待信号量（休眠）
